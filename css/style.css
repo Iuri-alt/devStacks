@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/DevStacks/assets/fundo.png);    
+}
+   
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(119, 155, 221, 0.748);
+}
+.dados{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-size: 40px;
+    font-family: "Lato", sans-serif;
+    padding: 50px;
+}
+#taskInput{
+    width: 50%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#dateInput{
+    width: 50%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+}
+.botao{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-family: "Lato", sans-serif;
+}
+.botao:hover{
+    background-color: rgba(119, 155, 221, 0.748);
+    font-weight: bold;
+}
+.container_tabela{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: none;
+}
+#taskList{   
+    width: 50%;
+    list-style: none;
+}
+#taskList li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(40, 98, 164, 0.2);  
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2px;
+    border-radius: 10px;
+}
+#taskList button {
+    background-color: rgba(50, 156, 222, 0.652);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#taskList button:hover {
+    background-color: darkred;
+}
+small {
+  font-size: 20px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+#dateInput{
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+    }
+    .container_dados,
+    .container_tabela {
+        width: 100%;
+    }
+    #taskInput,
+    #dateInput {
+        width: 90%;
+    }
+    #taskList {
+        width: 90%;
+    }
+}
+.login{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+}
+.titulo_login{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.usuario{
+    width: 30%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.senha{
+    width: 30%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.sign_in{
+    background-color: blue;
+    color: white;
+    width: 80px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-family: "Lato", sans-serif;
+}
+.sign_in:hover{
+    background-color: rgba(119, 155, 221, 0.748);
+    font-weight: bold;
+}
+.sair{
+    background-color: blue;
+    margin-top: 10px;
+    color: white;
+    width: 104px;
+    font-size: 20px;
+    padding: 7px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-family: "Lato", sans-serif;
+}
+.sair:hover{
+    background-color: rgba(119, 155, 221, 0.748);
+    font-weight: bold;
+}
