@@ -20,7 +20,7 @@ Um sistema simples de gerenciamento de tarefas com login, desenvolvido usando HT
 
 ## 🌐 Acesse o projeto
 
-👉 https://seu-usuario.github.io/devstacks/
+👉 https://iuri-alt.github.io/devStacks/
 
 ## 📚 Aprendizados
 
